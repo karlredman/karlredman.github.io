@@ -95,20 +95,150 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+figure.logo_img {
+  /*
+   *border: 10px solid #b6bdc3;
+   */
+  width: 100%;
+  background: white;
+  margin: 0 auto;
+}
+
+/* Required to make image fluid in IE */
+img:not(.png) {
+  width: 100%;
+}
+
+td.work_status {
+    margin: 0 auto; 
+    text-align: center;
+    padding: 10px;
+}
+td.work_status .bold_red { 
+    font-weight: bold;
+    color: red;
+}
 
 
+table.welcome_table {
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    width: 80%;
+    background: white;
 
+    /*
+    padding: 0;
+     *width: 100px;
+     *height: 100px;
+     *margin: 50px;
+     */
+    /*
+    box-shadow: -10px 8px 8px -8px black, 10px 8px 8px -8px black;
+    box-shadow: -10px 8px 8px -8px black, 10px -8px 8px -8px blue;
+    box-shadow: -10px 8px 8px -8px black, 10px 8px 8px -8px black;
+    box-shadow:1px 0px 8px 1px #2b2b2b inset; 
+    box-shadow:8px 8px 15px 2px #404040; 
+    border-width: 12px;
+    border-style: outset;
+    border-color: #8e9190;
+    padding: 0.5rem;
+    */
+}
 
+/*
+ *table.welcome_table td {
+ *    border-width: 1px;
+ *    border-style: solid;
+ *    border-color: black;
+ *}
+ */
 
+table.welcome_table p {
+    text-align: center;
+    font-weight: bold;
+    border: 10px outset #8e9190;
+}
 
+footer.copyright {
+    text-align: left;
+    font-style: italic;
+}
 
+/* site nav bar */
+nav {
+    margin: 0 auto; 
+    text-align: center;
+    border:1px solid black; 
+}
 
+nav ul ul {
+    display: none;
+}
 
+nav ul li:hover > ul {
+    display: block;
+}
 
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
 
+nav ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
 
+nav ul li:hover a {
+    color: #000000;
+}
 
+nav ul li a {
+    display: block; 
+    padding: 10px 15px;
+    color: #000000;
+    text-decoration: none;
+    background-color: white;
+/*
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+*/
+}       
+nav li ul a {
+    border-right: 1px solid #ccc; 
+    border-left: 1px solid #ccc; 
+}
+        
+nav ul ul {
+    border-radius: 0px;
+    padding: 0;
+    position: absolute;
+}
 
+nav ul ul li {
+    float: none; 
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: relative;
+}
+
+nav ul ul li a {
+    color: #000000;
+}
+
+nav ul ul li a:hover {
+    color: #666666;
+}
+        
+nav ul ul ul {
+    position: absolute;
+    top:0;
+}
 
 
 /* ==========================================================================
