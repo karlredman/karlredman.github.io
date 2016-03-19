@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
@@ -15,6 +16,7 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+    <div class="wrapper">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -51,37 +53,57 @@
             <!--</tr>-->
         <!--</table>-->
 
-        <table class="logo_table">
-            <tr>
-                <td>
-                    <!--<img src="img/logo.svg" height="200" alt="Karl N. Redman logo">-->
-                    <img class="logo_img" src="img/logo.svg" alt="Karl N. Redman logo">
-                </td>
-                <td style="text-align: right;"> 
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="text-align: center;"> 
-                                <h2>Personal website of:</h2> 
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table style="width: 100%">
-                        <tr>
-                        <td> 
-                            <h1>Karl N. Redman</h1> 
-                        </td>
-                        </tr>
-                        <tr>
-                            <td> 
-                                <!--<td style="padding: 0;"> -->
-                                <h4>Software / Systems Engineer</h4> 
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
+
+        <div class="banner">
+            <figure>
+               <img src="img/logo.svg" alt="Karl N. Redman logo">
+               <!--<img src="img/logo.svg" alt="Karl N. Redman logo">-->
+            </figure>
+                <h2>Personal Website of: </h2>
+                <h1>Karl N. Redman</h1>
+                <div class=centered_text>
+                    <h4>Software/Systems Engineer</h4>
+                </div>
+                <br>
+                <div class="banner_centered_text">
+                    <h3>Current Work Status:</h3>
+                    <h3><span>Seeking Employment</span></h3>
+                </div>
+        </div>
+
+        <!--
+           -<table class="logo_table">
+           -    <tr>
+           -        <td>
+           -            [><img src="img/logo.svg" height="200" alt="Karl N. Redman logo"><]
+           -            <img class="logo_img" src="img/logo.svg" alt="Karl N. Redman logo">
+           -        </td>
+           -        <td style="text-align: right;"> 
+           -            <table style="width: 100%">
+           -                <tr>
+           -                    <td style="text-align: center;"> 
+           -                        <h2>Personal website of:</h2> 
+           -                    </td>
+           -                </tr>
+           -            </table>
+           -        </td>
+           -        <td>
+           -            <table style="width: 100%">
+           -                <tr>
+           -                <td> 
+           -                    <h1>Karl N. Redman</h1> 
+           -                </td>
+           -                </tr>
+           -                <tr>
+           -                    <td> 
+           -                        [><td style="padding: 0;"> <]
+           -                        <h4>Software / Systems Engineer</h4> 
+           -                    </td>
+           -                </tr>
+           -            </table>
+           -        </td>
+           -    </tr>
+           -->
             <!--
                -<tr>
                -    <td>
@@ -94,16 +116,16 @@
                -    </td>
                -</tr>
                -->
-        </table>
+        <!--</table>-->
 
-        <table class="work_status">
-            <tr>
-                <td style="text-align: right;">Current Work Status:</td>
-                <!--<td style="text-align: right;">Software / Systems Engineer:</td>-->
-                <td style="text-align: left;"><span class="bold_red">Seeking Employment</span></td>
-                <td> </td>
-            </tr>
-        </table>
+        <!--<table class="work_status">-->
+            <!--<tr>-->
+                <!--<td style="text-align: right;">Current Work Status:</td>-->
+                <!--[><td style="text-align: right;">Software / Systems Engineer:</td><]-->
+                <!--<td style="text-align: left;"><span class="bold_red">Seeking Employment</span></td>-->
+                <!--<td> </td>-->
+            <!--</tr>-->
+        <!--</table>-->
             
 
 
@@ -158,6 +180,7 @@
             Copyright Karl N. Redman 2016. All rights reserved. 
         </footer>
 		<!-- end of body -->
+    </div>
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>');</script>
         <script src="js/plugins.js"></script>
