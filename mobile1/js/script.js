@@ -1,3 +1,9 @@
+/*
+ *$(function() {
+ *    alert( 'JavaScript Loaded!' );
+ *});
+ */
+
 (function($) {
 
   $.fn.menumaker = function(options) {
