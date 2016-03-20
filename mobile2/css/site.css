@@ -1,0 +1,22 @@
+/* my site.css file */
+
+/*My banner*/
+.banner {
+    text-align: center;
+}
+.banner .title h1,h2 {
+    display: inline-block;
+}
+.banner .work_status {
+    text-align: center;
+}
+.banner .work_status h3 {
+    display: inline-block;
+}
+
+.banner .work_status span {
+    font-weight: bold;
+    color: red;
+}
+
+
