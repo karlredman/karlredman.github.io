@@ -19,4 +19,13 @@
     color: red;
 }
 
+.accdn_list {
+    display: inline-block;
+    padding: 1em;
+    /*border: 1px; */
+    /*border-style: solid;*/
+    vertical-align: top; 
+}
 
+.ac-table {
+}

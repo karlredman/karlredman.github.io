@@ -4,7 +4,7 @@
 	/*text-align: left;*/
     width: 100%;
     margin: 0 auto;
-	text-align: center;
+	text-align: left;
 }
 .ac-container label{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -51,10 +51,10 @@
 	height: 24px;
 	right: 13px;
 	top: 7px;
-	background: transparent url(../images/arrow_down.png) no-repeat center center;	
+	background: transparent url(img/arrow_down.png) no-repeat center center;	
 }
 .ac-container input:checked + label:hover:after{
-	background-image: url(../images/arrow_up.png);
+	background-image: url(img/arrow_up.png);
 }
 .ac-container input{
 	display: none;
@@ -96,4 +96,8 @@
 }
 .ac-container input:checked ~ article.ac-large{
 	height: 230px;
+}
+.ac-container input:checked ~ article.ac-default{
+	/*height: 230px;*/
+    height: 100%;
 }
