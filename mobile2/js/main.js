@@ -1,3 +1,5 @@
-$(function() {
-    alert( 'JavaScript Loaded!' );
-});
+/*
+ *$(function() {
+ *    alert( 'JavaScript Loaded!' );
+ *});
+ */
