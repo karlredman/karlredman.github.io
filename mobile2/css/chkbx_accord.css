@@ -135,7 +135,7 @@
 .ac-container .ac-table td {
 }
 
-@media all and (min-width: 769px)
+@media all and (min-width: 960px)
 {
     .ac-container input:checked + label,
     .ac-container input:checked + label:hover{

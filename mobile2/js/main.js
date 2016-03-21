@@ -16,7 +16,7 @@
 
 /* open all accordian items if large screen 
 Note: probably should use classes instead */
-if ($(window).width() > 768 ) {
+if ($(window).width() > 960 ) {
     //alert('grater than 400');
     $("input[type='checkbox']").attr("checked", true);
 }
