@@ -101,3 +101,32 @@
 	/*height: 230px;*/
     height: 100%;
 }
+
+.ac-container .ac-list {
+    display: inline-block;
+    padding: 1em;
+    vertical-align: top; 
+    /*border: 1px; */
+    /*border-style: solid;*/
+}
+
+.ac-container table {
+    width:80%; 
+    margin:0 auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*border: 1px; */
+    /*border-style: solid;*/
+}
+
+.ac-container .ac-table td {
+}
+
+@media all and (min-width: 1024px)
+{
+    .ac-container input:checked + label,
+    .ac-container input:checked + label:hover{
+        background: #fff;
+        color: black;
+    }
+}

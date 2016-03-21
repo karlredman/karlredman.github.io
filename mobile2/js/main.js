@@ -1,13 +1,6 @@
-//$(function() {
-    //alert( 'JavaScript Loaded!' );
-//});
-
 /*
- *(function($) {
- *    if ($(window).width() > 400 ) {
- *        alert( 'JavaScript Loaded!' );
- *        //$("input[type='checkbox']").attr("checked", true);
- *    }
+ *$(function() {
+ *    alert( 'JavaScript Loaded!' );
  *});
  */
 
@@ -21,6 +14,8 @@
  *}
  */
 
+/* open all accordian items if large screen 
+Note: probably should use classes instead */
 if ($(window).width() > 400) {
     //alert('grater than 400');
     $("input[type='checkbox']").attr("checked", true);
