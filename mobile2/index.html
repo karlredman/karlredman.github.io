@@ -46,11 +46,14 @@
         <link rel="stylesheet" href="css/main.css">
 
         <!--<link rel="stylesheet" href="css/reset.css">-->
-        <link rel="stylesheet" href="css/cssmenu.css">
-        <link rel="stylesheet" href="css/chkbx_accord.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/fresh_menu.css">
 
+        <link rel="stylesheet" href="css/chkbx_accord.css">
         <link rel="stylesheet" href="css/site.css">
 
+        <script type="text/javascript" src="js/fresh_jquery.js"></script>
+        <script type="text/javascript" src="js/fresh_menu.js"></script>
 
         <!--custom js should go above this line-->
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
@@ -59,35 +62,51 @@
         <!-- START site or application content here -->
 
         <!--********* Navigation ********* -->
-        <div id='cssmenu'>
-            <ul>
-                <!--<li><a href='index.html'>Home</a></li>-->
-                <li class='active'><a href='#'>Resume</a>
-                    <ul>
-                        <li><a href='resume.html'>Online Resume</a></li>
-                        <li><a href='download/Karl_N_Redman.doc'>Download Resume Word Document</a></li>
-                        <li><a href='download/Karl_Redman.pdf'>Download Resume PDF Document</a></li>
-                        <li><a href='download/Karl_Redman.txt'>Download Resume TXT Document</a></li>
-                        <li><a href='download/Karl_Redman.txt'>Download Resume Markdown Document</a></li>
-                    </ul>
-                </li>
-                    <li><a href='mailto:karl.redman@gmail.com'>Contact</a></li>
-                    <li><a href='work_history.html'>Work History</a></li>
-                <li class='active'><a href='#'>About</a>
-                    <ul>
-                        <li><a href='about_me.html'>About Me</a></li>
-                        <li><a href='about_work.html'>About My Work</a></li>
-                        <li><a href='about_site.html'>About This Site</a></li>
-                    </ul>
-                </li>
-                <li class='active'><a href='#'>Site Resources</a>
-                    <ul>
-                        <li><a href='http://redmine.karlredman.homeip.net'>Redmine</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
 
+<div id="wrap">
+	<header>
+		<div class="inner relative">
+            <img class="logo" height="l0px;" src="img/fake_logo.png" alt="Karl N. Redman">
+            <!--<a class="logo" href="http://karlredman.homeip.net"><img src="img/parasyte_100px.jpg" height="20px" alt="Karl N. Redman"></a>-->
+			<a id="menu-toggle" class="button dark" href="#">MENU</a>
+			<nav id="navigation">
+				<ul id="main-menu">
+					<li class="current-menu-item"><a href="http://karlredman.homeip.net">Home</a></li>
+					<li class="parent">
+						<a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Features</a>
+						<ul class="sub-menu">
+							<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html"><i class="icon-wrench"></i> Elements</a></li>
+							<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html"><i class="icon-credit-card"></i>  Pricing Tables</a></li>
+							<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html"><i class="icon-gift"></i> Icons</a></li>
+							<li>
+								<a class="parent" href="#"><i class="icon-file-alt"></i> Pages</a>
+								<ul class="sub-menu">
+									<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Full Width</a></li>
+									<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Left Sidebar</a></li>
+									<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Right Sidebar</a></li>
+									<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Double Sidebar</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Portfolio</a></li>
+					<li class="parent">
+						<a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Blog</a>
+						<ul class="sub-menu">
+							<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Large Image</a></li>
+							<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Medium Image</a></li>
+							<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Masonry</a></li>
+							<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Double Sidebar</a></li>
+							<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Single Post</a></li>
+						</ul>
+					</li>
+					<li><a href="http://www.freshdesignweb.com/responsive-drop-down-menu-jquery-css3-using-icon-symbol.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="clear"></div>
+		</div>
+	</header>	
+</div>    
         <!-- ********* Banner ********* -->
 
         <div class="banner">
