@@ -73,6 +73,13 @@
 	color: aqua;
     float: right;
 }
+#menu-contact {
+	display: none;
+    text-align: left;
+    padding: 10px;
+    color: aqua;
+    float: right;
+}
 
 /* HEADER > MENU */
 #main-menu {
@@ -175,12 +182,21 @@ ul.sub-menu > li > a.parent {
 
 @media all and (max-width: 700px) {
 
+#contactme {
+    color: teal;
+    display: show;
+}
+
 	#navigation {
 		position: static;
 		margin-top: 100;
 	}
 
 	#menu-toggle {
+		display: block;
+	}
+
+	#menu-contact {
 		display: block;
 	}
 
