@@ -10,7 +10,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
         <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 
-        <meta http-equiv="cleartype" content="on">
+
+        <!--
+           -TEMPORARY validation fix
+           -Conditional comment for IE browsers. Otherwise validation breaks.
+           -For more information see here: https://blog.giantgeek.com/?p=1250
+           -->
+            <!--[if IEMobile]>
+                <meta http-equiv="cleartype" content="on" />
+            <![endif]-->
 
          <link type="text/plain" rel="author" href="http://karlredman.homeip.net/humans.txt"/>
 
@@ -136,10 +144,13 @@
 
         <!--Accordion-->
         <section class="ac-container">
+        <h4>Content Section</h4>
             <div>
                 <input id="ac-1" name="accordion-1" type="checkbox" checked="checked"/>
                 <label for="ac-1">Introduction</label>
                 <article class="ac-default">
+                <!--<h4 style="display: none;">Introduction</h4>-->
+                <h4>Introduction</h4>
                     <p> REPLACE THIS </p>
                     <p style="width: 80%; margin: 0 auto; font-weight: bold;">
                         This is the professional website of Karl N. Redman -Software Engineer. I have over 13 years of experience in full lifecycle development practices which includes (but is not limited to) design, development, integration and project management. This website contains my professional resume, work history, some open source projects I have worked on, and Contact information.
@@ -150,6 +161,7 @@
                 <input id="ac-2" name="accordion-1" type="checkbox" />
                 <label for="ac-2">Work Experience Summary</label>
                 <article class="ac-default">
+                <h4>Work Experience Summary</h4>
                     <p> REPLACE THIS </p>
                         <table class="ac-table">
                             <tr>
@@ -198,6 +210,7 @@
                 <input id="ac-3" name="accordion-1" type="checkbox" />
                 <label for="ac-3"> Work Related Skills</label>
                 <article class="ac-default">
+                <h4>Work Related Skills</h4>
                     <p> REPLACE THIS </p>
                         <table class="ac-table">
                             <tr>
@@ -348,6 +361,7 @@
                 <input id="ac-4" name="accordion-1" type="checkbox" />
                 <label for="ac-4">Contact & References</label>
                 <article class="ac-default">
+                <h4>Contact & References</h4>
                     <p> REPLACE THIS </p>
                     <p>placeholder for contact information</p>
                 </article>

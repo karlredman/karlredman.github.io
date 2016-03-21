@@ -85,6 +85,12 @@
 	-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 }
+.ac-container article h4{
+    display: none;
+}
+.ac-container section h4{
+    display: none;
+}
 .ac-container article p{
 	color: #777;
     color: black;
