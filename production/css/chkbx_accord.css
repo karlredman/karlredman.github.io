@@ -1,3 +1,12 @@
+/* top level div needs a heading to validate */
+.accordion .heading{
+    display: none;
+}
+/*
+ *.ac-container article h4{
+ *    display: none;
+ *}
+ */
 .ac-container{
 	/*width: 400px;*/
 	/*margin: 10px auto 30px auto;*/
@@ -84,12 +93,6 @@
 	-o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 	-ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
-}
-.ac-container article h4{
-    display: none;
-}
-.ac-container section h4{
-    display: none;
 }
 .ac-container article p{
 	color: #777;
