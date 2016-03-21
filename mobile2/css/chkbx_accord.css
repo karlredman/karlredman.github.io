@@ -73,8 +73,8 @@
 	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
 }
 .ac-container article p{
-	font-style: italic;
 	color: #777;
+    color: black;
 	line-height: 23px;
 	font-size: 14px;
 	padding: 20px;
@@ -122,7 +122,7 @@
 .ac-container .ac-table td {
 }
 
-@media all and (min-width: 1024px)
+@media all and (min-width: 769px)
 {
     .ac-container input:checked + label,
     .ac-container input:checked + label:hover{
