@@ -115,7 +115,7 @@
 
 #main-menu > li:hover > a,
 #main-menu > li.current-menu-item > a {
-	color: #23dbdb;
+	color: aqua;
 }
 
 /* HEADER > MENU > DROPDOWN */
@@ -182,11 +182,6 @@ ul.sub-menu > li > a.parent {
 
 @media all and (max-width: 700px) {
 
-#contactme {
-    color: teal;
-    display: show;
-}
-
 	#navigation {
 		position: static;
 		margin-top: 100;
@@ -198,6 +193,7 @@ ul.sub-menu > li > a.parent {
 
 	#menu-contact {
 		display: block;
+        color: aqua;
 	}
 
 	#main-menu {
