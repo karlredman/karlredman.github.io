@@ -119,7 +119,8 @@
 ul.sub-menu { /* level 2 */
 	display: none;
 	left: 0px;
-	top: 38px;
+    /* seems to affect submenu placement */
+	/*top: 38px;*/
 	padding-top: 10px;
 	position: absolute;
 	width: 150px;
