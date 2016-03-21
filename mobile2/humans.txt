@@ -4,6 +4,12 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+Developer: Karl N. Redman
+Contact: karl[dot]redman[at]gmail[dot]com
+Site: karlredman.homeip.net
+Twitter: 
+From: Illinois
+Location: Illinois, United States
 
 # THANKS
 
@@ -12,4 +18,10 @@
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Modernizr, Normalize 
+
+# SITE
+Last update: 2016/03/20
+Standards: HTML5, CSS3
+Components: Modernizr, JQuery
+Software: Personal Website
