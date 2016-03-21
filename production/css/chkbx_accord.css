@@ -1,3 +1,34 @@
+/*
+# Accordion USAGE
+```
+ *<!--Accordion-->
+ *<div class="accordion">
+ *    <section class="ac-container">
+ *        <h4 class="heading">Content Section</h4>
+ *            <div>
+ *                <input id="ac-1" name="accordion-1" type="checkbox" checked="checked"/>
+ *                <label for="ac-1">Introduction</label>
+ *                <article class="ac-default">
+ *                    <h4 class="heading">Introduction</h4>
+ *                    <p> REPLACE THIS </p>
+ *                    <p style="width: 80%; margin: 0 auto; font-weight: bold;">
+ *                        This is the professional website of Karl N. Redman -Software Engineer. I have over 13 years of experience in full lifecycle development practices which includes (but is not limited to) design, development, integration and project management. This website contains my professional resume, work history, some open source projects I have worked on, and Contact information.
+ *                    </p>
+ *                </article>
+ *            </div>
+ *            <div>
+ *                <input id="ac-2" name="accordion-1" type="checkbox" />
+ *                <label for="ac-2">Work Experience Summary</label>
+ *                <article class="ac-default">
+ *                    <h4 class="heading">Work Experience Summary</h4>
+ *                        <p> REPLACE THIS </p>
+ *                </article>
+ *            </div>
+ *    </section>
+ *</div>
+```
+ */
+
 /* top level div needs a heading to validate */
 .accordion .heading{
     display: none;
