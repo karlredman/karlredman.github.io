@@ -14,9 +14,15 @@
  *}
  */
 
-/* open all accordian items if large screen 
-Note: probably should use classes instead */
+/* open all accordian items if large screen */
 if ($(window).width() > 960 ) {
-    //alert('grater than 400');
     $("input[type='checkbox']").attr("checked", true);
+
+}
+
+/* open about page accordians (doesn't work on android phone) */
+var pathname = window.location.pathname;
+if( pathname.indexOf('about') >= 0){
+    $("input[type='checkbox']").attr("checked", true);
+    //alert(pathname);
 }
