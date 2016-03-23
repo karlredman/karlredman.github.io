@@ -15,9 +15,9 @@
  */
 
 /* open all accordian items if large screen */
+//if ($(window).width() > 600 ) {
 if ($(window).width() > 960 ) {
     $("input[type='checkbox']").attr("checked", true);
-
 }
 
 /* open about page accordians (doesn't work on android phone) */
