@@ -2,6 +2,12 @@
 n.n.n / 2016-03-23
 ==================
 
+
+
+v0.8.6 / 2016-03-23
+===================
+
+  * added changelogs. now moving to format outlined by http://keepachangelog.com/ The next commit will be with v0.9.0
   * deleted work skills. updated page descriptions.
   * removed work history from menu and changed introduction a little bit
 
