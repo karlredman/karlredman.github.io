@@ -4,6 +4,16 @@ n.n.n / 2016-03-23
 
 
 
+v0.8.7 / 2016-03-23
+===================
+
+  * #Added: google search meta tag to index file for better ownership
+  * #Added: google search verification. #Fixed apache2 config for proper https and aliases. #Fixed language meta tags
+  * #Added: sitemap files and sitemap link to site_about page
+  * #Added: keywords, copyright, author, and language metatags to pages
+  * regular update
+  * update
+
 v0.8.6 / 2016-03-23
 ===================
 
