@@ -18,6 +18,10 @@
   * for any bug fixes.
 * @Security
   * to invite users to upgrade in case of vulnerabilities.
+* @Test
+  * testing out code or building a unit test
+* @UnitTest
+  * a formal unit test
 * @Prototpe
   * Indicates that the commit is a development prototype
 * @Update
@@ -25,6 +29,11 @@
 * [no semantic tag]
   * same as @Update
 * An '*' within a message indicates that it is a bullet point for the commit.
+#### examples
+```
+
+
+
 
 ## HOWTO
 ### site update checklist
@@ -65,4 +74,34 @@ ps -edf |grep "index.js" |awk '{print $2}'|xargs kill -9; service ghost start
 tidy --config ~/mbin/tidy.conf index.html >test.html
 ```
 
+## indent code
+* vim
+  ```
+  # goto beginning of file
+  gg
+
+  # indent from here to end
+  =G
+  ```
+* vim command line
+  ```
+  echo 'gg=G' > indent.txt
+  echo ':wq' >> indent.txt
+  vim -s indent.txt fil
+  ```
+* vim indenting all html files in a directory
+  * script
+    ```
+    #/bin/bash
+
+    for file in *.html
+    do
+        vi -s indent.txt $file
+    done
+    ```
+  * command file
+    ```
+    gg=G
+    :wq
+    ```
 
