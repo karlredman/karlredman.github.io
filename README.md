@@ -31,11 +31,14 @@
 * An '*' within a message indicates that it is a bullet point for the commit.
 #### examples
 ```
-
+git commit -am "@Added: proper google custom search bar functionality. @Added unified menues with correct icons. @Added quicky script to reindent all html files in the directory through vim (for consistancy)"
+```
 
 
 
 ## HOWTO
+### update the change log
+
 ### site update checklist
 1. if working on blog checkin the blog database (as root)
 ```
