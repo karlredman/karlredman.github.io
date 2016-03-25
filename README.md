@@ -4,7 +4,8 @@
 
 
 ## Standards
-### Commit semantics for change logs
+### Commit message semantics for change logs
+* references ticket#88
 * @Added
   * for new features.
 * @Changed
@@ -23,6 +24,7 @@
   * Indicates that a commit is a general interim update
 * [no semantic tag]
   * same as @Update
+* An '*' within a message indicates that it is a bullet point for the commit.
 
 ## HOWTO
 ### site update checklist
