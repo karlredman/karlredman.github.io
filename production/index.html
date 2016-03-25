@@ -57,7 +57,8 @@
     </script><!--CSS sheets-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css"><!--<link rel="stylesheet" href="css/reset.css">-->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/font-awesome.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/fresh_menu.css">
     <link rel="stylesheet" href="css/chkbx_accord.css">
     <link rel="stylesheet" href="css/site.css">
@@ -102,7 +103,8 @@
             <a id="pagehome" href="#"></a>
             <div class="inner relative">
                 <img class="logo" src="img/fake_logo.png" alt="Karl N. Redman"> <!--<a class="logo" href="http://karlredman.homeip.net"><img src="img/parasyte_100px.jpg" height="20px" alt="Karl N. Redman"></a>-->
-                 <a id="menu-toggle" class="button dark" href="#">Resume / MENU</a> <a id="menu-contact" class="button dark" href="mailto:karl.redman@gmail.com">Contact Me</a>
+                 <a id="menu-toggle" class="button dark" href="#">Resume / MENU</a> 
+                 <a id="menu-contact" class="button dark" href="mailto:karl.redman@gmail.com">Contact Me</a>
                 <nav id="navigation">
                     <ul id="main-menu">
                         <!--<li class="current-menu-item"><a href="http://karlredman.homeip.net">Home</a></li>-->
@@ -110,22 +112,30 @@
                             <a href="#">Resume</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="resume.html">Online Resume</a>
+                                <a href="resume.html"><i class="fa fa-html5"></i> Online</a>
                                 </li>
                                 <li>
-                                    <a href="download/Karl_N_Redman.doc">Download Resume (MS Word Format)</a>
+                                <a href="download/Karl_N_Redman.doc"><i class="fa fa-file-word-o"></i> MS Word Format</a>
                                 </li>
                                 <li>
-                                    <a href="download/Karl_N_Redman.pdf">Download Resume (PDF Format)</a>
+                                    <a href="download/Karl_N_Redman.pdf"><i class="fa fa-file-pdf-o"></i> PDF Format</a>
                                 </li>
                                 <li>
-                                    <a href="download/Karl_N_Redman.txt">Download Resume (Ascii Text Format)</a>
+                                    <a href="download/Karl_N_Redman.txt"><i class="fa fa-file-text-o"></i> Ascii Text Format</a>
                                 </li>
                                 <li>
-                                    <a href="download/Karl_N_Redman.markdown">Download Resume (Github Markdown Format)</a>
+                                    <a href="download/Karl_N_Redman.markdown"><i class="fa fa-file-code-o"></i> Markdown Format</a>
                                 </li>
                             </ul>
                         </li>
+                            <li class="parent">
+                                <a href="#">Contact Me</a>
+                                <ul class ="sub-menu">
+                                    <li>
+                                        <a href="mailto:karl.redman@gmail.com"><i class="fa fa-envelope"></i> Direct Email</a>
+                                    </li>
+                                </ul>
+                            </li>
                         <!--
                            -<li class="parent">
                            -    <a href="#">Work Experience</a>
@@ -147,22 +157,33 @@
                             <a href="#">About</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="about_me.html">About Me</a>
+                                <a href="about_me.html"><i class="fa fa-user"></i> About Me</a>
                                 </li>
                                 <li>
-                                    <a href="about_site.html">About This Site</a>
+                                <a href="about_site.html"><i class="fa fa-sitemap"></i> About This Site</a>
                                 </li>
                             </ul>
-                        </li>
-                        <li>
-                            <a href="mailto:karl.redman@gmail.com">Contact Me</a>
                         </li>
                         <li class="parent">
                             <a href="#">Site Resources</a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="http://redmine.karlredman.homeip.net">Redmine Login</a>
+                                <a href="http://redmine.karlredman.homeip.net"><i class="fa fa-bug"></i> Redmine Login</a>
                                 </li>
+                                <li>
+                                <a href="http://blog.karlredman.homeip.net"><i class="fa fa-thumbs-o-up"></i> Website Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="parent">
+                            <a href="#">Follow</a>
+                            <ul class="sub-menu">
+                                <li> <a href="https://it.linkedin.com/in/karl-n-redman-850413"><i class="fa fa-linkedin"></i> Linked In</a> </li>
+                                <li> <a href="https://github.com/karlredman"><i class="fa fa-github-alt"></i> GitHub</a> </li>
+                                <li> <a href="http://stackoverflow.com/users/1725771/karl-n-redman"><i class="fa fa-stack-overflow"></i> Stack Overflow</a></li>
+                                <li> <a href="https://www.reddit.com/user/grendelkon/"><i class="fa fa-reddit-alien"></i> Reddit</a></li>
+                                <li> <a href="https://twitter.com/Karl_Redman"><i class="fa fa-twitter"></i> Twitter</a></li>
+                                <li> <a href="https://www.youtube.com/user/grendelkon"><i class="fa fa-youtube-play"></i> YouTube</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -186,8 +207,6 @@
 <!--**************************************************************************************************************************************************************     -->
 <!--**************************************************************************************************************************************************************     -->
 <!-- ********* START Banner ********* -->
-<div class="google_searchbar">
-</div>
     <div class="banner">
         <div class="title">
             <h2>Personal Website of:</h2>
@@ -198,7 +217,26 @@
             <h3>Current Work Status:</h3>
             <h3><span>Seeking Employment</span></h3>
         </div>
-    </div><!-- ********* END Banner ********* -->
+    </div>
+    <div class="google_searchbar">
+        <small>search this site:</small>
+        <div class="bar">
+            <script>
+              (function() {
+                var cx = '012852769333916430495:gepw4x6yyru';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
+        </div>
+    </div>
+<!-- ********* END Banner ********* -->
 <!--**************************************************************************************************************************************************************     -->
 <!--**************************************************************************************************************************************************************     -->
 <!--**************************************************************************************************************************************************************     -->

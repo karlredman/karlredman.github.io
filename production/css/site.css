@@ -19,3 +19,40 @@
     color: red;
 }
 
+.google_searchbar {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.google_searchbar small {
+    padding: 0px;
+    float: left;
+}
+.google_searchbar .bar {
+    /*future customizations*/
+}
+
+
+@media all and (max-width: 1280px)
+{
+    .google_searchbar {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 768px)
+{
+    .google_searchbar {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media all and (max-width: 400px)
+{
+    .google_searchbar {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+}
