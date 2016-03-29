@@ -6,6 +6,8 @@
 ## Standards
 ### Commit message semantics for change logs
 * references ticket#88
+* @Release
+  * actual releases
 * @Added
   * for new features.
 * @Changed

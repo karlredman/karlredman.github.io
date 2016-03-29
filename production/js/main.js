@@ -26,3 +26,11 @@ if( pathname.indexOf('about') >= 0){
     $("input[type='checkbox']").attr("checked", true);
     //alert(pathname);
 }
+
+/* WIP: want to open the contact_info accordian and send people there 
+ * this might work: http://stackoverflow.com/questions/4482074/how-to-use-jquery-trigger-anchors-default-click-event
+ * about location focus: http://stackoverflow.com/questions/6068266/jquery-how-to-trigger-anchor-links-click-event
+ * */
+$("#open_contact_info").click(function () {
+    $("input:checkbox").prop('checked', true);
+});
