@@ -36,7 +36,7 @@ Accomplished Linux Software Engineer with extensive Systems Engineering experien
 
 # WORK EXPERIENCE
 
-## R Systems N.A. Inc. (December 2012 – January 2016)
+## R Systems N.A. Inc. (December 2013 – January 2016)
 
 *Custom* *High Performance Computing Service Provider for Academic and Corporate Institutions.*
 

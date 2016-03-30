@@ -73,7 +73,7 @@ Project Management And Support Roles:
 WORK EXPERIENCE
 
 
-R Systems N.A. Inc. (December 2012 – January 2016)
+R Systems N.A. Inc. (December 2013 - January 2016)
 
 _Custom_ _High Performance Computing Service Provider for Academic and
 Corporate Institutions._
@@ -116,7 +116,7 @@ _Makers of computation software such as Mathematica and Wolfram Alpha._
     the end product.
 
 
-DoubleClick, Inc. / Google, Inc. (contract) (March 2008 – May 2008)
+DoubleClick, Inc. / Google, Inc. (contract) (March 2008 - May 2008)
 
 _Display advertising and keyword search enhancement / reporting
 company._
@@ -131,7 +131,7 @@ company._
     and culture.
 
 
-Market Systems, Inc. / Thomson Financial, Inc. (June 2005 – July 2007)
+Market Systems, Inc. / Thomson Financial, Inc. (June 2005 - July 2007)
 
 _SEC Automated Exception Compliance Reporting._
 
@@ -149,7 +149,7 @@ _SEC Automated Exception Compliance Reporting._
     SVN, Trac.
 
 
-TransUnion, Inc. (contract) (January 2005 – June 2005)
+TransUnion, Inc. (contract) (January 2005 - June 2005)
 
 _Credit Score Model Reengineering._
 
@@ -167,7 +167,7 @@ _Credit Score Model Reengineering._
     an IBM S390 Mainframe.
 
 
-Midphase Services, Inc. (July 2004 – October 2004)
+Midphase Services, Inc. (July 2004 - October 2004)
 
 _Startup Web Hosting Services Provider._
 
@@ -182,7 +182,7 @@ _Startup Web Hosting Services Provider._
     development environments.
 
 
-Freelance Consultant (contract) (April 2002 – July 2004)
+Freelance Consultant (contract) (April 2002 - July 2004)
 
 _A progressive personal consulting business._
 
@@ -206,7 +206,7 @@ _A progressive personal consulting business._
 -   System and network installation / administration coordinator.
 
 
-Verascape, Inc. (February 2001 – October 2001)
+Verascape, Inc. (February 2001 - October 2001)
 
 _Innovator of a product which integrates telecommunications technology
 with voice recognition software._
@@ -226,7 +226,7 @@ with voice recognition software._
     and SQL software applications.
 
 
-Lucent Technologies (contract) (July 2000 – December 2000)
+Lucent Technologies (contract) (July 2000 - December 2000)
 
 _A nationally recognized telecommunications company._
 
@@ -242,7 +242,7 @@ _A nationally recognized telecommunications company._
     purposes using Perl.
 
 
-The Helios Group, Inc. / Bear Stearns, Inc. (January 2000 – May 2000)
+The Helios Group, Inc. / Bear Stearns, Inc. (January 2000 - May 2000)
 
 _A financial trading firm that utilized cutting-edge technology to gain
 an advantage in European and U.S. options markets._
@@ -259,7 +259,7 @@ an advantage in European and U.S. options markets._
     cross – platform programming.
 
 
-HyperFeed Technologies, Inc. (October 1997 – December 1999)
+HyperFeed Technologies, Inc. (October 1997 - December 1999)
 
 A REAL-TIME FINANCIAL DATA DELIVERY PROVIDER.
 
