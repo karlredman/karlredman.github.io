@@ -114,3 +114,10 @@ tidy --config ~/mbin/tidy.conf index.html >test.html
 1. get a zip file of all maps from [xml-sitemaps.com](https://www.xml-sitemaps.com/)
 1. explode the zip file in the production directory
 1. overwrite the xml sitemap with a subdomain following version from [web-site-map.com](http://www.web-site-map.com/)
+
+## updating changelog
+```
+cd [repo toplevel]
+git changelog -a -p
+pandoc -f markdown -t html -o production/changelog.html History.md
+```

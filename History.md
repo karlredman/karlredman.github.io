@@ -1,8 +1,61 @@
 
-n.n.n / 2016-03-23
+n.n.n / 2016-03-30
 ==================
 
+  * @update: root update
+  * regular update
+  * @Fixed: robots.tx
+  * @Update sitemap
+  * regular update
+  * @Added: more resume formats, file access to resume menu. @fixed noindex meta comment in index page
+  * @adding txt version of resume
 
+v1.0.1 / 2016-03-29
+===================
+
+  * Added resume page and resume documents for download
+  * @Removing old resume's
+
+v1.0.0 / 2016-03-29
+===================
+
+  * @added: facebook to site menus
+  * @Added: facebook link to index menu and blog links
+  * @Added more contact information on the main page
+  * @fixed: removing about_me stuff thta isn't needed
+  * @fixed: changing number excerpt words from 26 to 100
+  * @fixed: removing search -it's just not working for me right now
+  * @fixed: removing search -it's just not working for me right now
+  * @Fixed: removed states I won't work in
+  * @Added sitemap and page update -states I won't work
+  * @Adding autocomplete to main page search box
+  * @Adding autocomplete to google search bar in the blog
+  * @Added google custom search to odin theam. Note: this was tricky and required that I make some changes in screen.css to turn off margin and line height for the surrounding table. It appears that things are ok
+  * regular update
+  * regular update
+  * regular update
+  * regular update
+  * @prototype: trying to add google search into theme
+  * @Added: proper google custom search bar functionality. @Added unified menues with correct icons. @Added quicky script to reindent all html files in the directory through vim (for consistancy)
+  * @Prototype: looks like we have a working google search bar on the main page -not going to add it to the other pages for now. @Prototype: added icons to the menu navigation and moved the menu around a little bit
+  * Merge branch 'master' of localhost:heorot-network/website/heorot/site_heorot root had to check in the db
+  * Merge branch 'master' of localhost:heorot-network/website/heorot/site_heorot I forgot to do a git pull first
+  * @Update: checking in themes that I was testing and the db as root
+  * regular update
+  * @Prototype: * working on adding google search bar to all site pages. @Update: * updated readme file. * Moved config files directory to include other files
+  * attempting to get results to display
+  * @Added: playing around with google custom search
+  * @Fixed: google verification file location
+  * @Added google verification file to ghost
+  * @Fixed: icons for ghost theme oden
+  * @Added: several ghost themes
+
+v0.8.8 / 2016-03-24
+===================
+
+  * @Added: ghost blog and system_files for tracking
+  * @fixed: testing
+  * @fixed move of history file. @fixed: switching to the @ symbol for comments for changelogs. the 'pound' symbol causes a problem with the pandoc translation
 
 v0.8.7 / 2016-03-23
 ===================
