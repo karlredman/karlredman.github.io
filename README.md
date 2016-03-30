@@ -120,4 +120,10 @@ tidy --config ~/mbin/tidy.conf index.html >test.html
 cd [repo toplevel]
 git changelog -a -p
 pandoc -f markdown -t html -o production/changelog.html History.md
+gitcommit
+git push
+git tag -a v1.0.2 -m "@Release: added more resume document formats. @fixed: documents. @Added resume"
+git push --tags
+
+# pull as root
 ```
