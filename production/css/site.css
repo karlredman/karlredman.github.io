@@ -35,6 +35,9 @@
     /*future customizations*/
 }
 
+.resume_label {
+    text-align: left;
+}
 .resume_tech_div {
     width: 80%; 
     margin: 0 auto; 
@@ -100,5 +103,53 @@
         margin: 0 auto;
     }
 }
-
+@media all and (max-width: 900px)
+{
+    .resume_label {
+        text-align: left;
+    }
+    .resume_tech_div {
+        width: 99%; 
+        margin: 0 auto; 
+        padding: 10px;
+    }
+    .resume_tech_div h3 {
+        text-indent: 0em;
+    }
+    .resume_tech_div div {
+        margin: 0 auto;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .resume_work_div {
+        width: 100%;
+    }
+    .resume_employer {
+        width: 100%;
+        margin: 0 auto;
+        /*text-align: left;*/
+        /*background-color: yellow;*/
+    }
+    .resume_employer td {
+        width: 50%;
+    }
+    .resume_employer .employer_name {
+        padding: 10px;
+        width: 0%;
+        font-weight: bold;
+        font-size: 120%;
+    }
+    .employer_desc {
+        font-style: italic;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .work_list {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .work_list li {
+        padding: 5px;
+    }
 }
+
