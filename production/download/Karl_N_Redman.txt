@@ -3,7 +3,7 @@
 KARL N. REDMAN
 
 
-karl.redman@gmail.com / KARLREDMAN.HOMEIP.NET
+karl.redman@gmail.com / karlredman.ddns.net
 
 
 
@@ -273,6 +273,6 @@ A REAL-TIME FINANCIAL DATA DELIVERY PROVIDER.
 -   Programmed several cross-platform (UNIX and Windows) data quality
     testing applications using C and C++.
 
-_For more in-depth information see_ _http://karlredman.homeip.net/_
+_For more in-depth information see_ _http://karlredman.ddns.net/_
 
 References are available upon request.

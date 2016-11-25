@@ -1,6 +1,6 @@
 # Karl N. Redman
 
-<karl.redman@gmail.com> / [**karlredman.homeip.net**](http://karlredman.homeip.net/)
+<karl.redman@gmail.com> / [**karlredman.ddns.net**](http://karlredman.ddns.net/)
 
 # Experienced Linux Software & Systems Engineer
 
@@ -161,7 +161,7 @@ Accomplished Linux Software Engineer with extensive Systems Engineering experien
 
 -    Programmed several cross-platform (UNIX and Windows) data quality testing applications using C and C++.
 
-*For more in-depth information see* [*http://karlredman.homeip.net/*](http://karlredman.homeip.net/)
+*For more in-depth information see* [*http://karlredman.ddns.net/*](http://karlredman.ddns.net/)
 
 References are available upon request.
 Note: this document uses github markdown
