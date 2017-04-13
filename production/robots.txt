@@ -1,6 +1,0 @@
-# robotstxt.org/
-
-User-agent: *
-Disallow:
-Sitemap: http://blog.karlredman.homeip.net/sitemap.xml
-Sitemap: http://karlredman.homeip.net/sitemap.xml
