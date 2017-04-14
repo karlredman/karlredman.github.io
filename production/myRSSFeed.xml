@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+    <channel>
+        <title>Karl N. Redman [Home]</title>
+        <link>http://karlredman.homeip.net/</link>
+        <description>Personal website of Karl N. Redman. The index page contains the following information: Menu to resume and other site pages, work skills and experience</description>
+        <copyright>Copyright &#xA9; 2016</copyright>
+        <pubDate>Wed, 23 Mar 2016 05:00:00 GMT</pubDate>
+        <generator>Sitemapdoc.com XML Sitemap Generator</generator>
+        <item>
+            <title><![CDATA[Karl N. Redman [Home]]]></title>
+            <link>http://karlredman.homeip.net/</link>
+            <pubDate>Wed, 23 Mar 2016 05:00:00 GMT</pubDate>
+            <description><![CDATA[Personal website of Karl N. Redman. The index page contains the following information: Menu to resume and other site pages, work skills and experience]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Karl N. Redman [Resume]]]></title>
+            <link>http://karlredman.homeip.net/resume.html</link>
+            <pubDate>Wed, 23 Mar 2016 05:00:00 GMT</pubDate>
+            <description><![CDATA[Online Resume for Software and Systems Engineer Karl N. Redman]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Karl N. Redman [Work History]]]></title>
+            <link>http://karlredman.homeip.net/work_history_detailed.html</link>
+            <pubDate>Wed, 23 Mar 2016 05:00:00 GMT</pubDate>
+            <description><![CDATA[Personal Work History of Software and Systems Engineer Karl N. Redman]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Karl N. Redman [About Me]]]></title>
+            <link>http://karlredman.homeip.net/about_me.html</link>
+            <pubDate>Wed, 23 Mar 2016 05:00:00 GMT</pubDate>
+            <description><![CDATA[FAQ about Karl N. Redman. Software Engineer and Systems Engineer. Provides information regarding work history, and other personal aspects pertaining t]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Karl N. Redman [About This Site]]]></title>
+            <link>http://karlredman.homeip.net/about_site.html</link>
+            <pubDate>Wed, 23 Mar 2016 05:00:00 GMT</pubDate>
+            <description><![CDATA[FAQ about the personal website of Karl N. Redman. Software Engineer and Systems Engineer. Contains information about: how the site was made, a link to]]></description>
+        </item>
+        <item>
+            <title><![CDATA[No Title <span class="MapErrors2">No Description</span>]]></title>
+            <link>http://karlredman.homeip.net/changelog.html</link>
+            <pubDate>Wed, 23 Mar 2016 05:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
