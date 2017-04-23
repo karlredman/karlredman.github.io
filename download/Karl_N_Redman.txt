@@ -3,7 +3,7 @@
 KARL N. REDMAN
 
 
-karl.redman@gmail.com / karlredman.ddns.net
+karl.redman@gmail.com / karlredman.github.io
 
 
 
@@ -273,6 +273,6 @@ A REAL-TIME FINANCIAL DATA DELIVERY PROVIDER.
 -   Programmed several cross-platform (UNIX and Windows) data quality
     testing applications using C and C++.
 
-_For more in-depth information see_ _http://karlredman.ddns.net/_
+_For more in-depth information see_ _http://karlredman.github.io/_
 
 References are available upon request.

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8">
+<title>Karl N. Redman [About Me]</title>
+<meta name="description" content="FAQ about Karl N. Redman. Software Engineer and Systems Engineer. Provides information regarding work history, and other personal aspects pertaining to career."><!--********************************************************************************************************************************************-->
+<meta name="keywords" content="Resume,Software Engineer,Systems Engineer,Programmer,Developer,Administrator,linux,Karl N. Redman" />
+<meta name="author" content="Karl N. Redman" />
+<meta name="copyright" content="&copy; 2016" />
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui"><!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--
+           -TEMPORARY validation fix
+           -Conditional comment for IE browsers. Otherwise validation breaks.
+           -For more information see here: https://blog.giantgeek.com/?p=1250
+           -->
+<!--[if IEMobile]>
+                <meta http-equiv="cleartype" content="on" />
+            <![endif]-->
+<link type="text/plain" rel="author" href="http://karlredman.github.io/humans.txt">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+<link rel="shortcut icon" sizes="196x196" href="img/touch/touch-icon-196x196.png">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<link rel="shortcut icon" href="img/touch/apple-touch-icon.png"><!--********************************************************************************************************************************************-->
+<!-- Tile icon for Win8 (144x144 + tile color) -->
+<meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+<meta name="msapplication-TileColor" content="#222222"><!--********************************************************************************************************************************************-->
+<!-- SEO: If mobile URL is different from desktop URL, add a canonical link to the desktop page -->
+<!--
+        <link rel="canonical" href="http://www.example.com/" >
+        -->
+<!--********************************************************************************************************************************************-->
+<!-- Add to homescreen for Chrome on Android (USE ON INDEX PAGE) -->
+<!--<meta name="mobile-web-app-capable" content="yes">-->
+<!--********************************************************************************************************************************************-->
+<!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 (USE ON INDEX PAGE) -->
+<!--<meta name="apple-mobile-web-app-capable" content="yes">-->
+<!--<meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+<!--<meta name="apple-mobile-web-app-title" content="">-->
+<!--********************************************************************************************************************************************-->
+<!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+
+<script>
+(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")
+</script><!--********************************************************************************************************************************************-->
+<!--CSS sheets-->
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css"><!--********************************************************************************************************************************************-->
+<!--<link rel="stylesheet" href="css/reset.css">-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/fresh_menu.css">
+<link rel="stylesheet" href="css/chkbx_accord.css">
+<link rel="stylesheet" href="css/site.css">
+<script type="text/javascript" src="js/fresh_jquery.js">
+</script>
+<script type="text/javascript" src="js/fresh_menu.js">
+</script><!--********************************************************************************************************************************************-->
+<!--custom js should go above this line-->
+
+<script src="js/vendor/modernizr-2.7.1.min.js">
+</script>
+</head>
+<body>
+<!-- START site or application content here -->
+<!--********* START Navigation ********* -->
+<div id="wrap">
+    <header>
+        <a id="pagehome" href="#"></a>
+        <div class="inner relative">
+            <img class="logo" src="img/fake_logo.png" alt="Karl N. Redman"> 
+            <!--<a class="logo" href="http://karlredman.github.io"><img src="img/parasyte_100px.jpg" height="20px" alt="Karl N. Redman"></a>-->
+            <a id="menu-toggle" class="button dark" href="#">Resume / MENU</a> 
+            <a id="menu-contact" class="button dark" href="mailto:karl.redman@gmail.com">Contact Me</a>
+            <nav id="navigation">
+                <ul id="main-menu">
+                    <li class="menu-item"><a href="http://karlredman.github.io"><i class="fa fa-home"></i> Home</a></li>
+                    <li class="parent">
+                    <a href="#">Resume</a>
+                    <ul class="sub-menu">
+                        <li> <a href="resume.html"><i class="fa fa-html5"></i> Online</a> </li>
+                        <li> <a href="download/Karl_N_Redman.pdf"><i class="fa fa-file-pdf-o"></i> PDF </a> </li>
+                        <li> <a href="download/Karl_N_Redman.odt"><i class="fa fa-file"></i> OpenOffice </a> </li>
+                        <li> <a href="download/Karl_N_Redman.doc"><i class="fa fa-file-word-o"></i> MS Word (doc) </a> </li>
+                        <li> <a href="download/Karl_N_Redman.docx"><i class="fa fa-file-word-o"></i> MS Word (docx) </a> </li>
+                        <li> <a href="download/Karl_N_Redman.txt"><i class="fa fa-file-text-o"></i> Text </a> </li>
+                        <li> <a href="download/Karl_N_Redman.markdown"><i class="fa fa-file-code-o"></i> Markdown </a> </li>
+                    </ul>
+                    </li>
+                    <li class="menu-item"><a href="http://karlredman.github.io/projects.html"></i> Projects</a></li>
+                    <li class="parent">
+                    <a href="#">Contact Me</a>
+                    <ul class ="sub-menu">
+                        <li>
+                        <a href="mailto:karl.redman@gmail.com"><i class="fa fa-envelope"></i> Direct Email</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <!--
+                           -<li class="parent">
+                           -    <a href="#">Work Experience</a>
+                           -    <ul class="sub-menu">
+                           -        <li>
+                           -            <a href="work_history_detailed.html">Detailed Work History</a>
+                           -        </li>
+                           -->
+                    <!--
+                                   -<li>
+                                   -    <a href="work_skills_detailed.html">Detailed Work Skills</a>
+                                   -</li>
+                                   -->
+                    <!--
+                           -    </ul>
+                           -</li>
+                           -->
+                    <li class="parent">
+                    <a href="#">About</a>
+                    <ul class="sub-menu">
+                        <li>
+                        <a href="about_me.html"><i class="fa fa-user"></i> About Me</a>
+                        </li>
+                        <li>
+                        <a href="about_site.html"><i class="fa fa-sitemap"></i> About This Site</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <!--<li class="parent">-->
+                    <!--<a href="#">Site Resources</a>-->
+                    <!--<ul class="sub-menu">-->
+                        <!--<li>-->
+                        <!--<a href="http://redmine.karlredman.ddns.net"><i class="fa fa-bug"></i> Redmine Login</a>-->
+                        <!--</li>-->
+                        <!--<li>-->
+                        <!--<a href="http://blog.karlredman.ddns.net"><i class="fa fa-thumbs-up"></i> Website Blog</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                    <!--</li>-->
+                    <li class="parent">
+                    <a href="#">Follow</a>
+                    <ul class="sub-menu">
+                        <li> <a href="https://it.linkedin.com/in/karl-n-redman-850413"><i class="fa fa-linkedin"></i> Linked In</a> </li>
+                        <li> <a href="https://github.com/karlredman"><i class="fa fa-github-alt"></i> GitHub</a> </li>
+                        <li> <a href="http://stackoverflow.com/users/1725771/karl-n-redman"><i class="fa fa-stack-overflow"></i> Stack Overflow</a></li>
+                        <li> <a href="https://www.reddit.com/user/grendelkon/"><i class="fa fa-reddit-alien"></i> Reddit</a></li>
+                        <li><a href="https://www.facebook.com/karl.redman.1"><i class="fa fa-facebook"></i> Facebook</a></li>
+                        <li> <a href="https://twitter.com/Karl_Redman"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        <li> <a href="https://www.youtube.com/user/grendelkon"><i class="fa fa-youtube-play"></i> YouTube</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    </header>
+</div>
+
+<!--********* END Navigation ********* -->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!-- ********* START Banner ********* -->
+<div class="banner">
+    <div class="title">
+        <h2>Personal Website of:</h2>
+        <h1>Karl N. Redman</h1>
+    </div>
+    <h1>About Me:</h1>
+</div><!-- ********* END Banner ********* -->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********* START Content ********* -->
+<!--Accordion-->
+<div class="accordion">
+    <section class="ac-container">
+        <h4 class="heading">Content Section</h4>
+        <div>
+            <input id="ac-1" name="accordion-1" type="checkbox" checked="checked"> <label for="ac-1">Introduction</label>
+            <article class="ac-default">
+                <h4 class="heading">Introduction</h4>
+                <div style="width: 80%; margin: 0 auto; padding: 10px;">
+                    <section style="font-weight: bold;">
+                        <h4 class="heading">About Me: Introduction</h4>
+                        <h3 id="note" style="margin: 30px 0px 15px; padding: 0px; font-weight: bold; line-height: 1.7; cursor: text; position: relative; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-size: 1.5em; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Note:</h3>
+                        <ul style="margin: 15px 0px; padding: 0px 0px 0px 30px; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+                            <li style="margin: 0px; padding: 0px;">These are questions actually asked of me relative to the creation of this website and my soul searching for the next work related adventure in my life. I've tried to be complete and honest in my answers.</li>
+                        </ul>
+                    </section>
+                </div>
+            </article>
+        </div>
+        <div>
+            <input id="ac-2" name="accordion-1" type="checkbox"> <label for="ac-2">FAQ About Me:</label>
+            <article class="ac-default">
+                <h4 class="heading">FAQ About Me:</h4>
+                <table class="ac-table">
+                    <tr>
+                        <td>
+                            <!--<div style="display:inline-block; border: 1px; border-style: solid; padding: 1em;" >-->
+                            <div class="ac-list">
+                                <h3 id="whats-your-deal-who-are-you" style="margin: 1em 0px 15px; padding: 0px; font-weight: bold; line-height: 1.7; cursor: text; position: relative; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-size: 1.5em; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">What's your deal? Who are you?</h3>
+                                <ul style="margin: 15px 0px; padding: 0px 0px 0px 30px; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+                                    <li style="margin: 0px; padding: 0px;">Honestly I have no idea how to answer this question. I'm a guy that was born in the very early 1970's. I'm a product of growing up as an adolescent in that time and being a teenager in the 1980's. I graduated High School in 1990 while working as manager for the county recycling center, a member of the county health board solid waste management committee, and a small business owner. I never went to college -although I did get top of the class in Jr. College English courses while in High School. I invented the process for differentiating polyvinyl chloride consumer plastic bottles (#3 PVC) from polyethylene terephthalate (#1 PET/PETE) bottles in the recycling industry in 1990 -at 18 years old. I started a newspaper recycling business that turned paper into a hay substitute in 1991. I Started a pallet recycling business (in-house) for Eaglebrook Plastics, Inc. in 1992. I used to hunt, and water ski, and snomobile.</li>
+                                    <li style="margin: 0px; padding: 0px;">My first work related program was building a system in Novell Netware Lotus 123 for National Polystyrene Recycling Company, LLC. I was the Quality Control Manager at the time (later I was the plant supervisor -at 22 years old). I was required to provide a wide variety of chemical and physical tests for the recycled content we were making at this company. And I had to report to the scientific departments of our corporate partners (companies like Dow Chemical, Exxon Mobile, DuPont, etc.). So, I built a system that tracked every lot of material from it's source all the way through the recycling process into extrusion into pellets. Later, as plant supervisor I enhanced the program to track the production rates of every employee working for the company. This was in response to my boss, at the time, refusing to budge for a 25 cent raise for various workers under me -claiming that he did not know their productivity. I raised production of the company 35% in 2 months with this program. I won my workers more money... and then the company was sold.</li>
+                                    <li style="margin: 0px; padding: 0px;">I started my first computer job in 1995 as a Systems Engineer for SCO Unix operated Medical Billing Systems. I've bounced around from interesting project to interesting project since then. Most of the small/medium sized companies I've worked for have been bought out or closed down. In that time I've contracted as a C/c++ developer for the likes of Lucent Technologies and was working for DoubleClick as a perl developer, literally, when they were bought out by Google (I lost my contract of course). I worked for Verascape, first company to use develop a voicexml phone product -the basis of our phone automation today. I worked for Helios Trading when they were bought out by Bear Sterns for our automated trading system for the ISE (I was lead developer). I've had a lot of opportunities and I've learned a great deal. And this is why my resume is littered with so many artifacts of the I.T. industry.</li>
+                                    <li style="margin: 0px; padding: 0px;">My passion is developing new and exciting systems. I invent things. I find ways to make things happen. I'm know for this among my peers, relatives, and friends. Generally speaking I'm very good in an emergency with a "can do"/"whatever it takes" attitude.</li>
+                                    <li style="margin: 0px; padding: 0px;">I love my son and those whom I call family. And I love building systems that help people accomplish their goals.</li>
+                                    <li style="margin: 0px; padding: 0px;">...and I can be long winded at times....</li>
+                                </ul>
+                                <h3 id="what-is-your-preferred-desktop-operating-system" style="margin: 1em 0px 15px; padding: 0px; font-weight: bold; line-height: 1.7; cursor: text; position: relative; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-size: 1.5em; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">What is your preferred desktop operating system:</h3>
+                                <ul style="margin: 15px 0px; padding: 0px 0px 0px 30px; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+                                    <li style="margin: 0px; padding: 0px;">Linux for productivity and IT related work</li>
+                                    <li style="margin: 0px; padding: 0px;">Windows only for Gaming (via steam)</li>
+                                </ul>
+                                <h3 id="what-are-your-favorite-desktop-based-video-games" style="margin: 1em 0px 15px; padding: 0px; font-weight: bold; line-height: 1.7; cursor: text; position: relative; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-size: 1.5em; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">What are your favorite Desktop based video games:</h3>
+                                <ul style="margin: 15px 0px; padding: 0px 0px 0px 30px; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+                                    <li style="margin: 0px; padding: 0px;">Ark Survival Online</li>
+                                    <li style="margin: 0px; padding: 0px;">Elder Scrolls V: Skyrim (heavily modded)</li>
+                                    <li style="margin: 0px; padding: 0px;">Fallout (from v3 on -heavily modded)</li>
+                                    <li style="margin: 0px; padding: 0px;">Killing Floor (occasionally)</li>
+                                </ul>
+                                <h3 id="which-textdocument-editors-do-i-use" style="margin: 1em 0px 15px; padding: 0px; font-weight: bold; line-height: 1.7; cursor: text; position: relative; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-size: 1.5em; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Which text/document editors do you use?</h3>
+                                <ul style="margin: 15px 0px; padding: 0px 0px 0px 30px; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+                                    <li style="margin: 0px; padding: 0px;">Text: vim (95% of the time)</li>
+                                    <li style="margin: 0px; padding: 0px;">others as needed</li>
+                                    <li style="margin: 0px; padding: 0px;">I usually write everything in vim (with a slew of pluggins) and use something like pandoc to convert the file formats. As a result I am able to keep a fairly good record of all my writing and knowledge in one place. I currently use vimwiki for most of my day-to-day writing of emails and knowledge-basing within a git repository (technically gitolite managed).</li>
+                                </ul>
+                                <h3 id="do-you-use-social-media" style="margin: 1em 0px 15px; padding: 0px; font-weight: bold; line-height: 1.7; cursor: text; position: relative; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-size: 1.5em; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Do you use social media?</h3>
+                                <ul style="margin: 15px 0px; padding: 0px 0px 0px 30px; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+                                    <li style="margin: 0px; padding: 0px;">Yes. I have a facebook account that is locked down, currently for "Friends Only" access. From 1999 through the end of 2015 I always maintained an open door policy. This remains my only social media outlet at this time.</li>
+                                    <li style="margin: 0px; padding: 0px;">I've been using social media under both the name parasyteofknowledge (parasyte of knowledge) and Karl N. Redman since before 1999 in various ways -as technology evolved. I used to write under the name 'parasyte' on livejournal, myspace, twitter, and a few other sites.</li>
+                                    <li style="margin: 0px; padding: 0px;">I have a youtube account that is still active. There you might find videos of me playing video games with my son and occasionally demonstrating something interesting. I don't post often and I'm by far not a "streamer" or anything like that.</li>
+                                    <li style="margin: 0px; padding: 0px;">Generally I don't bother with social media very often. This may change in the future but, for right now, I only use social media either as a tool for system updates (i.e. twitter) or to stay in touch with friends (i.e. facebook).</li>
+                                </ul>
+                                <h3 id="do-you-have-any-public-source-code-etc.-contributions-on-record" style="margin: 1em 0px 15px; padding: 0px; font-weight: bold; line-height: 1.7; cursor: text; position: relative; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-size: 1.5em; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-style: normal; font-variant: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">Do you have any public source code, etc. contributions on record?</h3>
+                                <ul style="margin: 15px 0px; padding: 0px 0px 0px 30px; color: rgb(51, 51, 51); font-family: Helvetica, arial, freesans, clean, sans-serif; font-size: 15px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 25.5px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+                                    <li style="margin: 0px; padding: 0px;">Most of the things I've written and released to the public are very old. I was under various NDA's and legal agreements until 2012 that prevented me from releasing technologies I'd developed -even those that I own. You can find a few things I've written out there under parasyteofknowledge and that are associated with my name. The interwebs seems to have forgotten about me somewhat.</li>
+                                    <li style="margin: 0px; padding: 0px;">Going forward I intend to post a few of my oldies but goodies though:
+                                    <ul style="margin: 15px 0px; padding: 0px 0px 0px 30px;">
+                                        <li style="margin: 0px; padding: 0px;">R.A.T.S (Real-time Automated Trading System): This is a whitepaper I wrote back around 2003 under contract. I will re-release this paper when I get a chance. Basically the paper describes how to build a real time trading system from scratch that would compete with the various automated systems around the world. It's dated but the principals of how automated trading systems, from a technical point of view, work are still relevant. By the way, I own the intellectual property because the person I contracted with couldn't pay up. Hence, I named the report R.A.T.S and gave him a copy anyway -while I released it on the internet. You will usually find references to this paper associated with a domain name I used to own: sleepingstill.com.</li>
+                                        <li style="margin: 0px; padding: 0px;">Linux Condition Variable Workaround: Again I'll try to dig up the code and post it somewhere in the near future. This gem was the only workaround for cross-process C/C++ condition variables on a client server (same machine) basis that existed back in 1999. To this day Linux does not support cross process condition variables. I built a system that makes it possible and the code still works on modern systems.</li>
+                                        <li style="margin: 0px; padding: 0px;">run-free: This is a commandline gtk v1.2 application that allows a user to enter shell commands within a unix desktop. By today's standards this application is very outdated. back in 2003 this was just about the only application that provided that capability. It was released under my parasyte pseudoname on sourceforge<span class="Apple-converted-space">&nbsp;</span><a href="https://sourceforge.net/projects/run-free/" style="margin: 0px; padding: 0px; color: rgb(65, 131, 196); text-decoration: underline;">here</a>.
+                                        </li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+        </div>
+    </section>
+</div><!--********* END Content ********* -->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<!--********************************************************************************************************************************************-->
+<footer>
+    <br>
+    <a href="#pagehome">Return to Top of Page</a><br>
+    <span style="font-style: italic;">Copyright</span> &copy; 1995-2016
+    <address style="display: inline-block;">
+        <a href="mailto:karl.redman@gmail.com">Karl N. Redman</a>
+    </address><span style="font-style: italic;">Unless Otherwise Noted. All Rights Reserved</span>
+    <p style="font-style: italic;">Last Updated: March 22, 2016</p>
+</footer><!-- END site or application content here -->
+<script src="js/vendor/jquery-2.1.0.min.js">
+</script> 
+<script src="js/helper.js">
+</script> 
+<script src="js/main.js">
+</script> 
+<script src="js/cssmenu.js">
+</script> 
+<script src="js/main.js">
+</script> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+<script>
+(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                                                        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+ e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+ e.src='//www.google-analytics.com/analytics.js';
+ r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+ga('create','UA-75185002-1');ga('send','pageview');
+</script>
+</body>
+</html>
