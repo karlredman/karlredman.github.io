@@ -120,7 +120,7 @@
                         <li> <a href="download/Karl_N_Redman.markdown"><i class="fa fa-file-code-o"></i> Markdown </a> </li>
                     </ul>
                     </li>
-                    <li class="menu-item"><a href="http://karlredman.github.io/projects.html"></i> Projects</a></li>
+                    <li class="menu-item"><a href="http://karlredman.github.io/projects.html"><i class="fa fa-lightbulb-o"></i> Projects</a></li>
                     <li class="parent">
                     <a href="#">Contact Me</a>
                     <ul class ="sub-menu">
@@ -269,6 +269,9 @@
                             </ul>
                             </li>
                         </ul>
+                        <center>See <a href="#contact_info">My contact information</a> below</center><br>
+                        <center>Available for work in Champaign / Urbana Illinois and Remote at this time.</center>
+                    
                     </section>
                     <!--<section style="margin: 0 auto; text-align: center; font-weight: bold;">-->
                         <!--<h4 class="heading">Welcome: salutations</h4>I love automating systems!-->
